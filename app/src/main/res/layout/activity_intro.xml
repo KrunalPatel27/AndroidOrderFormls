@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/WelcomeScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradientbackground"
+    tools:context="com.example.krupa.androidorderform.IntroActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome\nto\nKrunal's\nCoffee Shop"
+        android:textSize="38dp"
+        android:textStyle="bold|normal"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/roundedbutton"
+
+        android:text="Start Order"
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:textSize="18dp"
+        android:textStyle="bold|normal"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:onClick="startOrder"
+        />
+
+
+
+</RelativeLayout>
